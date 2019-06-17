@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="986" started-at="2019-06-17T07:32:46Z" finished-at="2019-06-17T07:32:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="986" started-at="2019-06-17T07:32:46Z" finished-at="2019-06-17T07:32:47Z">
+      <class name="com.datamato.tests.ExistingAmazonCustomerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@402f32ff]" name="setup" is-config="true" duration-ms="4938" started-at="2019-06-17T13:02:41Z" finished-at="2019-06-17T13:02:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@402f32ff]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-06-17T13:02:46Z" finished-at="2019-06-17T13:02:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.ExistingAmazonCustomerTest.homePageLoadedTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="homePageLoadedTest()[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@402f32ff]" name="homePageLoadedTest" duration-ms="629" started-at="2019-06-17T13:02:46Z" finished-at="2019-06-17T13:02:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageLoadedTest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@402f32ff]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-06-17T13:02:46Z" finished-at="2019-06-17T13:02:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.ExistingAmazonCustomerTest.homePageLoadedTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="clickOnAlreadyACustomerButtonTest()[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@402f32ff]" name="clickOnAlreadyACustomerButtonTest" duration-ms="343" started-at="2019-06-17T13:02:46Z" depends-on-methods="com.datamato.tests.ExistingAmazonCustomerTest.homePageLoadedTest" finished-at="2019-06-17T13:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAlreadyACustomerButtonTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@402f32ff]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-06-17T13:02:46Z" finished-at="2019-06-17T13:02:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.ExistingAmazonCustomerTest.clickOnAlreadyACustomerButtonTest() throws java.lang.InterruptedException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@402f32ff]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-06-17T13:02:47Z" finished-at="2019-06-17T13:02:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.ExistingAmazonCustomerTest.clickOnAlreadyACustomerButtonTest() throws java.lang.InterruptedException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@402f32ff]" name="tearDown" is-config="true" duration-ms="672" started-at="2019-06-17T13:02:47Z" finished-at="2019-06-17T13:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.datamato.tests.ExistingAmazonCustomerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,17 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="986" started-at="2019-06-17T07:32:46Z" finished-at="2019-06-17T07:32:47Z">
+  <suite name="Amazon" duration-ms="14468" started-at="2019-06-18T11:57:09Z" finished-at="2019-06-18T11:57:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="986" started-at="2019-06-17T07:32:46Z" finished-at="2019-06-17T07:32:47Z">
+    <test name="Amazon_App_Test" duration-ms="14468" started-at="2019-06-18T11:57:09Z" finished-at="2019-06-18T11:57:23Z">
+      <class name="com.datamato.tests.Exisiting_User_Login_Test">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.Exisiting_User_Login_Test@5ae9a829]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-06-18T17:27:14Z" finished-at="2019-06-18T17:27:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.Exisiting_User_Login_Test.existingUserLoginPageLoadedTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="existingUserLoginPageLoadedTest()[pri:1, instance:com.datamato.tests.Exisiting_User_Login_Test@5ae9a829]" name="existingUserLoginPageLoadedTest" duration-ms="315" started-at="2019-06-18T17:27:14Z" finished-at="2019-06-18T17:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- existingUserLoginPageLoadedTest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.Exisiting_User_Login_Test@5ae9a829]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-18T17:27:14Z" finished-at="2019-06-18T17:27:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.Exisiting_User_Login_Test.existingUserLoginPageLoadedTest() throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.Exisiting_User_Login_Test@5ae9a829]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-06-18T17:27:14Z" finished-at="2019-06-18T17:27:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.Exisiting_User_Login_Test.mobileNumberOREmailTest() throws java.lang.InterruptedException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="mobileNumberOREmailTest()[pri:0, instance:com.datamato.tests.Exisiting_User_Login_Test@5ae9a829]" name="mobileNumberOREmailTest" duration-ms="9531" started-at="2019-06-18T17:27:14Z" depends-on-methods="com.datamato.tests.Exisiting_User_Login_Test.existingUserLoginPageLoadedTest" finished-at="2019-06-18T17:27:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileNumberOREmailTest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.Exisiting_User_Login_Test@5ae9a829]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-06-18T17:27:23Z" finished-at="2019-06-18T17:27:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datamato.tests.Exisiting_User_Login_Test.mobileNumberOREmailTest() throws java.lang.InterruptedException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.datamato.tests.Exisiting_User_Login_Test -->
       <class name="com.datamato.tests.ExistingAmazonCustomerTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@402f32ff]" name="setup" is-config="true" duration-ms="4938" started-at="2019-06-17T13:02:41Z" finished-at="2019-06-17T13:02:46Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@573f2bb1]" name="setup" is-config="true" duration-ms="6098" started-at="2019-06-18T17:27:03Z" finished-at="2019-06-18T17:27:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@402f32ff]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-06-17T13:02:46Z" finished-at="2019-06-17T13:02:46Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@573f2bb1]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-06-18T17:27:09Z" finished-at="2019-06-18T17:27:09Z">
           <params>
             <param index="0">
               <value>
@@ -22,11 +76,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="homePageLoadedTest()[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@402f32ff]" name="homePageLoadedTest" duration-ms="629" started-at="2019-06-17T13:02:46Z" finished-at="2019-06-17T13:02:46Z">
+        <test-method status="PASS" signature="homePageLoadedTest()[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@573f2bb1]" name="homePageLoadedTest" duration-ms="1167" started-at="2019-06-18T17:27:09Z" finished-at="2019-06-18T17:27:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageLoadedTest -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@402f32ff]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-06-17T13:02:46Z" finished-at="2019-06-17T13:02:46Z">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@573f2bb1]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-06-18T17:27:10Z" finished-at="2019-06-18T17:27:10Z">
           <params>
             <param index="0">
               <value>
@@ -37,11 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="clickOnAlreadyACustomerButtonTest()[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@402f32ff]" name="clickOnAlreadyACustomerButtonTest" duration-ms="343" started-at="2019-06-17T13:02:46Z" depends-on-methods="com.datamato.tests.ExistingAmazonCustomerTest.homePageLoadedTest" finished-at="2019-06-17T13:02:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnAlreadyACustomerButtonTest -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@402f32ff]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-06-17T13:02:46Z" finished-at="2019-06-17T13:02:46Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@573f2bb1]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2019-06-18T17:27:10Z" finished-at="2019-06-18T17:27:10Z">
           <params>
             <param index="0">
               <value>
@@ -52,7 +102,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@402f32ff]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-06-17T13:02:47Z" finished-at="2019-06-17T13:02:47Z">
+        <test-method status="PASS" signature="clickOnAlreadyACustomerButtonTest()[pri:1, instance:com.datamato.tests.ExistingAmazonCustomerTest@573f2bb1]" name="clickOnAlreadyACustomerButtonTest" duration-ms="3423" started-at="2019-06-18T17:27:10Z" finished-at="2019-06-18T17:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAlreadyACustomerButtonTest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@573f2bb1]" name="afterMethod" is-config="true" duration-ms="2" started-at="2019-06-18T17:27:14Z" finished-at="2019-06-18T17:27:14Z">
           <params>
             <param index="0">
               <value>
@@ -63,11 +117,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@402f32ff]" name="tearDown" is-config="true" duration-ms="672" started-at="2019-06-17T13:02:47Z" finished-at="2019-06-17T13:02:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datamato.tests.ExistingAmazonCustomerTest@573f2bb1]" name="tearDown" is-config="true" duration-ms="902" started-at="2019-06-18T17:27:23Z" finished-at="2019-06-18T17:27:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.datamato.tests.ExistingAmazonCustomerTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Amazon_App_Test -->
+  </suite> <!-- Amazon -->
 </testng-results>

@@ -36,7 +36,9 @@ public class ExistingAmazonCustomer extends Driver {
     
     public String clickOnAlreadyACustomerButton() throws InterruptedException
     { 
+    	
     	alreadyACustomerButton.click();  
+    	Thread.sleep(3000);
     	return "Clicked";
     }
     

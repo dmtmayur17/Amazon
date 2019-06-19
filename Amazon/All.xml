@@ -3,8 +3,9 @@
 	<test name="Amazon_App_Test">
 		<classes>
 			<class name="com.datamato.tests.ExistingAmazonCustomerTest">
-			</class>
-			
+			</class>	
+			<class name="com.datamato.tests.Exisiting_User_Login_Test">
+			</class>		
 		</classes>
 	</test>
-</suite>
+</suite>					

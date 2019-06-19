@@ -22,8 +22,8 @@ import io.appium.java_client.android.AndroidDriver;
 public class BaseSetup {
 	private final String appiumPort = "4723";
 	private final String serverIp = "0.0.0.0";
-	// String workingDevice = "a315e67c";
-	String workingDevice = "d6f08719";
+	 String workingDevice = "a315e67c";
+	//String workingDevice = "d6f08719";
 	private static AndroidDriver<MobileElement> driver;
 
 	/**
@@ -51,7 +51,7 @@ public class BaseSetup {
 		capabilities.setCapability("udid", workingDevice);
 		capabilities.setCapability("appPackage", "in.amazon.mShop.android.shopping");
 		capabilities.setCapability("appActivity", "com.amazon.mShop.home.HomeActivity");
-		capabilities.setCapability("noReset", true);
+		capabilities.setCapability("noReset", false);
 		String serverUrl = "http://" + serverIp + ":" + appiumPort + "/wd/hub";
 
 		try {

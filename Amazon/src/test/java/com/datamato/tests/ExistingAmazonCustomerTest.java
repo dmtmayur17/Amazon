@@ -16,11 +16,11 @@ public class ExistingAmazonCustomerTest extends Driver{
 		Assert.assertEquals(existCust.didHomePageLoad(), "Sign in to your account","Home Page did not load..");
 	}
 	
-	@Test(dependsOnMethods = "homePageLoadedTest")
+	@Test(priority = 1)
 	 public void clickOnAlreadyACustomerButtonTest() throws InterruptedException, MalformedURLException
 	 { 
 		ExistingAmazonCustomer existCust= new ExistingAmazonCustomer();
-		Assert.assertEquals(existCust.clickOnAlreadyACustomerButton(), "Clicked","Successfully clicked on Existing Customer Button..");
+		Assert.assertEquals(existCust.clickOnAlreadyACustomerButton(), "Clicked","Did not click on Existing Customer Button..");
 	 }
 	    
 } 
